@@ -13,7 +13,7 @@ The data was obtained from one of the sample datasets avaible through [Google Co
 **Output:** 10 binary classes presenting the numbers 0 through 1. Available  @ [fmnist/fmnist.test.txt](fmnist/fmnist.test.txt)
 Training File
 
-####Trials Performed:
+**Trials Performed:**
 1. Trial #1: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.01]()
 2. Trial #2: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.05]()
 3. Trial #3: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.05]()
