@@ -12,10 +12,11 @@ The data was obtained from one of the sample datasets avaible through [Google Co
 **Input:** 784 doubles between 0 and 1 presenting the flattened pixel values of a 28x28 pixel grayscale image. The pixel values were divided by 255 to normalize the data between 0 and 1. Available  @ [fmnist/fmnist.training.txt](fmnist/fmnist.training.txt) <br />
 **Output:** 10 binary classes presenting the numbers 0 through 1. Available  @ [fmnist/fmnist.test.txt](fmnist/fmnist.test.txt)
 Training File
-**Initial Weights:** The Inital Weights (for each network) were generated using the c++ standard rand() function using the following code:                  
+**Initial Weights:** The Inital Weights (for each network) were generated using the c++ standard rand() function using the following code:
+```cpp
         double f = (double)rand() / RAND_MAX;
         weightsPreviou = (-1) + f * (2);
-
+```
 **Trials Performed:**
 1. Trial #1: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.01]()
 2. Trial #2: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.05]()
