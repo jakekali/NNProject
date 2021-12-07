@@ -23,3 +23,5 @@ The data was obtained from one of the sample datasets avaible through [Google Co
 4. Trial #4: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.75]()
 5. Trial #5: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.2]()
 6. Trial #6: [Trained for 3000 epochs, hidden layer of size 64, with a learning rate of 0.005]()
+# Other Notes
+- All the json stuff, (which shouldn't generate in when running the final program), was build for a potietal visualization tool that I am planning to build on top of this. 
