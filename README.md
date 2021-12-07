@@ -13,8 +13,8 @@ The data was obtained from one of the sample datasets avaible through [Google Co
 **Output:** 10 binary classes presenting the numbers 0 through 1. Available  @ [fmnist/fmnist.test.txt](fmnist/fmnist.test.txt)
 Training File
 **Initial Weights:** The Inital Weights (for each network) were generated using the c++ standard rand() function using the following code:                  
-  double f = (double)rand() / RAND_MAX;
-  weightsPreviou = (-1) + f * (2);
+    double f = (double)rand() / RAND_MAX;
+    weightsPreviou = (-1) + f * (2);
 
 **Trials Performed:**
 1. Trial #1: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.01]()
