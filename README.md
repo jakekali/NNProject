@@ -16,7 +16,7 @@ The data was obtained from one of the sample datasets avaible through [Google Co
         double f = (double)rand() / RAND_MAX;
         weightsPreviou = (-1) + f * (2);
 ```
-**Trials Performed:**
+**Trials Performed: (Fair Warning - Some these took several hours to completly train. I ran them on kahan.ee.cooper.edu over the course of several days.**
 1. Trial #1: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.01]()
 2. Trial #2: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.05]()
 3. Trial #3: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.05]()
