@@ -12,8 +12,4 @@ Download and run make
 3. Trial #3: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.05]()
 4. Trial #4: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.75]()
 5. Trial #5: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.2]()
-### MNIST Mini Dataset (Only Zeros and One)
-1. Trial #1:
-2. Trial #2: 
-3. Trial #3: 
-4. Trial #4: 
+6. Trial #6: [Trained for 3000 epochs, hidden layer of size 64, with a learning rate of 0.005]()
