@@ -20,8 +20,8 @@ The data was obtained from one of the sample datasets avaible through [Google Co
 1. Trial #1: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.01](fmnist/t1/meOut.txt)
 2. Trial #2: [Trained for 500 epochs, hidden layer of size 25, with a learning rate of 0.05](fmnist/t2/meOut.txt)
 3. Trial #3: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.05](fmnist/t3/meOut.txt)
-4. Trial #4: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.75]()
-5. Trial #5: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.2]()
-6. Trial #6: [Trained for 3000 epochs, hidden layer of size 64, with a learning rate of 0.005]()
+4. Trial #4: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.75](fmnist/t4/meOut.txt)
+5. Trial #5: [Trained for 2000 epochs, hidden layer of size 64, with a learning rate of 0.2](fmnist/t5/meOut.txt)
+6. Trial #6: [Trained for 3000 epochs, hidden layer of size 64, with a learning rate of 0.005](fmnist/t6/meOut.txt)
 # Other Notes
 - All the json and tensorboard stuff, (which shouldn't generate in when running the final program), was added for a visualization tool that I am planning to build on top of this. 
