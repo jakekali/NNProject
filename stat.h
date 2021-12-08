@@ -26,7 +26,11 @@ public:
         return (double) (1.0) *  ((double) A/ (double) (A+C));
     };
     double getF1(){
-        return (2 * (double) getPrecision() * (double) getRecall())/ (double) (getPrecision() + (double) getRecall());
+        double y = (2 * (double) getPrecision() * (double) getRecall())/ (double) (getPrecision() + (double) getRecall());
+        if(std::isnan(y)){
+            return 0;
+        }
+        return y;
     };
 };
 
